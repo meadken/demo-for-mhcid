@@ -1,0 +1,74 @@
+header {
+	position: absolute;;
+	z-index: 10;
+	width: 100%
+}
+
+.navbar {
+	padding: 20px 0;
+}
+
+.navbar-brand {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+
+}
+
+.nav-item {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover, 
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+	background: #262626;
+	color: #fff;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+	color: #262626;
+	padding: 5px 15px;
+
+}
+
+.banner {
+	position: relative;
+	background: url("images/annie-spratt-79742-unsplash-1500.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0 30%;
+}
+
+.banner h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: bold;
+	color: #262626;
+	text-transform: uppercase;
+}
+
+.banner p {
+	padding: 0;
+	font-size: 1.8em;
+	color: #262626;
+}
+
+.btn-primary {
+	background-color: #262626;
+	border: 0;
+}
+
+.content-section{
+	padding: 2em 0;
+}
+
+.content-section p{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
