@@ -91,3 +91,10 @@ header {
 	font-size: 1.2em;
 }
 
+.col-sm-2 {
+	background-color: yellow;
+}
+
+.col-6 {
+	background-color: black;
+}
