@@ -34,13 +34,32 @@ header {
 
 }
 
+
+.navbar-light .navbar-toggler {
+	border: none;
+	color: #fff;
+	border: 2px solid #7f7f7f;
+	border-radius: 0;
+	outline: none;
+}
+
+.navbar-collapse {
+	
+}
+
+@media (max-width: 768px) {
+	.banner {
+		padding: 100px 0;
+	}
+
+}
 .banner {
 	position: relative;
 	background: url("images/annie-spratt-79742-unsplash-1500.jpg");
 	min-height: 100vh;
 	background-size: cover;
 	background-position: center;
-	padding: 10% 0 30%;
+	padding: 100px 0;
 }
 
 .banner h2 {
